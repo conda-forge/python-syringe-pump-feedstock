@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@JEOOOL](https://github.com/JEOOOL/)
+* [@beenje](https://github.com/beenje/)
 
