@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
     - pip
     - poetry-core
   run:
@@ -34,7 +34,10 @@ tests:
       imports:
         - syringe_pump
       pip_check: false
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - 3.*
+
 about:
   license: GPL-3.0-or-later
   license_file: LICENSE.md
